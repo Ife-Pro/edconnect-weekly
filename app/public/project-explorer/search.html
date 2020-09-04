@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Search Page</title>
+    </head>
+
+    <body>
+        <h1>Project Explorer</h1>
+        <h2>One Stop Database for Final Year Projects</h2>
+        <a href="index.html">Home</a> <a href="search.html">Projects</a> <a href="createProject.html">Submit</a> <a href="login.html">Login</a> <a href="register.html">Register</a>
+
+        <h3>Search Project By</h3>
+
+        <form>
+            <div>
+                <label>
+                    <strong>Project Name:</strong>
+                </label><br>
+                <input type="text" name="searchTerm">
+            </div>
+            <br>
+            <div>
+                <label>
+                    <strong>Program:</strong>
+                </label><br>
+                <select name="programName">
+                    <option value="computer_science">Computer Science</option>
+                    <option value="computer_information_systems">Computer Information Systems</option>
+                    <option value="computer_technology">Computer Technology</option>
+                    <option value="software_engineering">Software Engineering</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <strong>Authors Name:</strong>
+                </label><br>
+                <select name="authorName">
+                    <option value="ade_bolade">Ade Bolade</option>
+                    <option value="brian_teleo">Brain Teleo</option>
+                    <option value="james_correy">James Correy</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <strong>Abstract:</strong>
+                </label><br>
+                <input type="text" name="searchTerm">
+            </div>
+            <br>
+            <div>
+                <label>
+                    <strong>Tags:</strong>
+                </label><br>
+                <select name="tagName">
+                    <option value="#yaml">#yaml</option>
+                    <option value="#ejs">#ejs</option>
+                    <option value="#php">#php</option>
+                    <option value="#sql">#sql</option>
+                </select>
+            </div>
+            <br>
+            <button>Search</button>
+        </form>
+        <h2>Search Results</h2>
+
+        <h3>Project 4</h3>
+        <ul>
+            <li>Name: Project 4</li>
+            <li>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci similique est a culpa, quasi, sapiente enim sit eveniet, quisquam fuga obcaecati sed quas! A laboriosam error consequuntur neque consequatur?</li>
+            <li>Program: Computer Science</li>
+            <li>Authors: Ade Bolade, Brian Teleo</li>
+            <li>Tags: #yaml, #els</li>
+        </ul>
+    </body>
+</html>
