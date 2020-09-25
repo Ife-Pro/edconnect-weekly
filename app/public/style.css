@@ -1,0 +1,35 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color:#000 !important;
+    background-color: aliceblue;
+    background-image: url("../public/scarf_background.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:greenyellow;
+}
+a{
+    color:rosybrown;
+    text-decoration: none;
+}
+h1,
+h3{
+    font-family: cursive !important;
+    text-transform:uppercase;
+    font-weight:700;
+    color:cornflowerblue
+}
+p{
+    font-size:15px;
+    line-height:21px;
+}
+.start{
+    text-align: center !important;
+}
