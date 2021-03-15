@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>LOGIN</title>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar mee">
+                <a href="index.html" target="blank" class="active">Project Explorer</a>
+                <span class="tpp">
+                    <input class="form-inline form-control" name="searchForm" type="text" placeholder="Search Projects"> 
+                    <button class="btn btn-outline-light to">Search</button>
+                </span>
+                <a href="createProject.html" target="blank">Submit</a>
+                <span class="pull-right area">
+                    <a href="register.html" target="blank">Sign Up</a>
+                    <a href="login.html" target="blank">Login</a>
+                </span>
+            </nav>
+        </header>
+
+        <div class="access">
+        <h2>Login</h2>
+            <form>
+                <div class="form-group">
+                    <label>
+                        Email Address
+                    </label>
+                    <input class="form-control" type="email" name="email" placeholder="Enter Email Address" required>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        Password
+                    </label>
+                    <input class="form-control" type="password" name="password" placeholder="Password" required>
+                </div>
+
+                <button class="btn btn-primary">Login</button>
+            </form>
+        </div>
+
+        <footer id="footer" class="text-right">
+            <p>Project Explorer &copy; 2020. <strong>Edconnect</strong></p>
+        </footer>
+    </body>
+</html>
