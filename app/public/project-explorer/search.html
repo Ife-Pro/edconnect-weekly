@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search Page</title <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar mee">
+            <a href="index.html" target="blank" class="active">Project Explorer</a>
+            <span class="tpp">
+                <input class="form-inline form-control" name="searchForm" type="text" placeholder="Search Projects">
+                <button class="btn btn-outline-light to">Search</button>
+            </span>
+            <a href="createproject.html" target="blank">Submit</a>
+            <span class="pull-right area">
+                <a href="register.html" target="blank">Sign Up</a>
+                <a href="login.html" target="blank">Login</a>
+            </span>
+        </nav>
+    </header>
+    <h3 class="mina">Project Gallery</h3>
+    <div class="container crate">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-7">
+                    <input class="form-control" type="text" name="projectgallery"
+                        placeholder="Search Project Name, Authors, Abstract, Tags">
+                </div>
+                <div class="form-group col-md-2">
+                    <span class="cool">Search By</span>
+                </div>
+                <div class="form-group col-md-2">
+                    <select class="form-control">
+                        <option value="name">Name</option>
+                        <option value="program">Program</option>
+                        <option value="authors">Authors</option>
+                        <option value="abstract">Abstract</option>
+                        <option value="4">Tags</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-1">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="mina2">
+        <h4 class="mina">All Projects <small>(0 results)</small></h4>
+        <div class="wrapper">
+            <div class="pick">
+                <h3 class="card-title">Project Title</h3>
+                <h4 class="card-subtitle">James Li, Ade Brian</h4>
+                <p class="card-text">Some quick example text to build on the car title and make up the bulk of the
+                    card's content.</p>
+                <h5>#html, #css, #javascript</h5>
+            </div>
+            <div class="pick kelp">
+                <h3>Project Title</h3>
+                <h4>Fried Lim, Tola Daniel</h4>
+                <p>Some quick example text to build on the car title and make up the bulk of the card's content.</p>
+                <h5>#html, #css, #javascript</h5>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="text-right">
+        <p>Project Explorer &copy; 2020. <strong>Edconnect</strong></p>
+    </footer>
+</body>
+
+</html>

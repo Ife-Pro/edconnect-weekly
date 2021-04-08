@@ -1,0 +1,301 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    font-size: 17px;
+}
+
+.navbar{
+    padding-top: 5px;
+    border-radius: 0px !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.mee{
+    background-color: blue;
+    /* color: whitesmoke !important; */    
+}
+
+.mee a{
+    color: whitesmoke;
+    padding-right: 0px;
+}
+.to{
+    color: whitesmoke;
+}
+
+.area a{
+    padding-right: 15px;
+}
+
+.tpp{
+    display: inline-flex;
+    padding-right: 10px;
+    padding-left: 8px;
+}
+
+.tpp button{
+    margin-left: 5px;
+    background-color: blue;
+    border-color: whitesmoke;
+}
+
+.main {
+    margin: 0px 70px;
+    border-radius: 3px;
+    padding-bottom: 70px;
+    padding-left:30px ;
+    padding: 0px 30px 70px 30px;
+}
+.que{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.maiden{
+    padding: 20px;
+    border-style:solid;
+    border-width: 0.1px;
+    border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 10px;
+    border-color: rgb(232, 232, 240);
+}
+.maiden h3, h5{
+    color:blue !important;    
+}
+.maiden h4{
+    color: gray;
+}
+
+/*LOGIN PAGE*/
+.access{
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 366px;
+}
+.access input{
+    width: 50%;
+}
+/*END OF LOGIN PAGE*/
+
+
+/*REGISTER PAGE*/
+.light{
+    margin: 100px 0px 230px 250px;
+    padding-bottom: 70px;
+}
+.light h2{
+    margin-left: 12px;
+}
+/*END OF REGISTER PAGE*/
+
+/*PROFILE PAGE*/
+.up{
+   background-color: rgb(242, 242, 247);
+   padding: 20px;
+   border-radius: 5px;
+}
+.shit{
+    margin: 50px 100px 30px 100px;
+    padding: 0px;
+    /* width: 100%; */
+}
+/*END OF PROFILE PAGE*/
+
+/*SEARCH PAGE*/
+.mina{
+    margin-left: 183px;
+}
+.crate{
+    background-color: rgb(242, 242, 247); 
+    padding: 10px 5px 0px 5px;
+    border-radius: 5px;
+}
+.crate input{
+    width: 100%;
+}
+.crate select{
+    width: 55%;
+    position: relative;
+    right: 120px;
+}
+.crate button{
+    position: relative;
+    right: 200px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.cool{
+    background-color: rgb(231, 227, 227);
+    margin-top: 50px !important;
+    font-size: 15px;
+     padding: 6px;
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+.pick{
+    border-style:solid;
+    border-width: 0.1px;
+    border-radius: 5px;
+    margin: 20px 20px 20px 100px;
+    padding: 0px 20px 5px 10px;
+    border-color: rgb(232, 232, 240);
+}
+.kelp{
+    margin-left: 0px;
+}
+.pick h3, h5{
+    color:blue !important;    
+}
+.pick h4{
+    color: gray;
+}
+.mina2{
+    margin-top: 100px;
+}
+/* END OF SEARCH PAGE */
+
+/* CREATE PROJECT PAGE */
+.coka{
+    width: 50% !important;
+}
+/* END OF CREATE PROJECT PAGE */
+
+/* EDIT PROJECT */
+.shat{
+    margin: 50px 100px 30px 0px;
+    padding: 0px;
+    width: 100%;
+}
+.ass1{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.ass2{
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.ass3{
+    padding: 8px 5px 8px;
+}
+.kim{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25em 0 0 0.25em;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 0px;
+}
+.meek{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px 0.25em 0.25em 0px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-left: 0px;
+}
+/* END OF EDIT PROJECT */
+
+/* VIEW PROJECT */
+.cat{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.qip{
+    color: cornflowerblue;
+}
+/* END OF VIEW PROJECT */
+
+
+/* FOOTER*/
+#footer{
+    background:rgb(232, 232, 240);
+    color:gray;
+    padding:5px 20px 1px 1px;
+    margin: 20px 70px 0px;
+    border-radius: 3px;
+}
+#footer strong{
+    color: black;
+}
+  
+
+
+
+
+
+
+
+@media(max-width:1300px){
+    .main-part{
+        background-color: gainsboro;
+        margin-right:500px;
+        position: relative;
+        right: 70px;
+    }
+    .access{
+        margin-left:150px;
+    }
+    .sub-access input{
+        padding-right: 200px;
+    }
+    .light{
+        margin-left: 50px;
+    }
+    .mini-light1 input{
+        padding-right: 150px;
+        margin-right: 7px;
+    }
+    .mini-light2 input, select{
+        padding-right: 54px;
+        margin-right: 5px;
+    }
+    .moon{
+        margin: 10px 20px 50px 10px !important;
+    }
+    .little-moon1 td{
+        padding-right: 71px;
+    }
+    .little-moon2 input{
+        padding-right: 100px;
+    }
+    .little-moon2 select{
+        padding-right: 50px;
+    }
+    .little-moon3{
+        margin-left: 53px;
+    }
+    .little-moon3 input{
+        padding-right: 40px;
+    }
+
+}
+@media (min-width: 900px){
+    .maiden-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 900px){
+    .maiden{
+        margin-bottom: 20px;
+    }
+}

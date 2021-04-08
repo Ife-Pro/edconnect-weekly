@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER</title>
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar mee">
+            <a href="index.html" target="blank" class="active">Project Explorer</a>
+            <span class="tpp">
+                <input class="form-inline form-control" name="searchForm" type="text" placeholder="Search Projects">
+                <button class="btn btn-outline-light to">Search</button>
+            </span>
+            <a href="createproject.html" target="blank">Submit</a>
+            <span class="pull-right area">
+                <a href="register.html" target="blank">Sign Up</a>
+                <a href="login.html" target="blank">Login</a>
+            </span>
+        </nav>
+    </header>
+    <div class="light">
+        <h2>Sign Up</h2>
+        <form>
+            <div class="form-row">
+                <div class=" form-group col-md-5">
+                    <label> First Name </label>
+                    <input class="form-control" type="text" name="firstname" placeholder="First Name" required>
+                </div>
+                <div class="form-group col-md-5">
+                    <label> Last Name </label>
+                    <input class="form-control" type="text" name="lastname" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label> Email Address </label>
+                    <input class="form-control" type="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group col-md-5">
+                    <label> Password </label>
+                    <input class="form-control" type="password" name="password" placeholder="Your Password" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label> Program </label>
+                    <select class="form-control" name="program" required>
+                        <option value="" selected disabled>Choose...</option>
+                        <option value="computer_science">Computer Science</option>
+                        <option value="computer_information_systems">Computer Information Systems</option>
+                        <option value="computer_technology">Computer Technology</option>
+                        <option value="software_engineering">Software Engineering</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label> Matriculation Number </label>
+                    <input class="form-control" type="text" name="matricNumber" placeholder="e.g. 16/2020" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label> Graduation Year </label>
+                    <select class="form-control" name="graduationYear" required>
+                        <option value="" selected disabled>Choose...</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+                    <button class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer id="footer" class="text-right">
+        <p>Project Explorer &copy; 2020. <strong>Edconnect</strong></p>
+    </footer>
+</body>
+
+</html>
